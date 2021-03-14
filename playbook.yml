@@ -7,4 +7,7 @@
     apt:
       name: curl
       state: latest  
-      update_cache: no  
+      update_cache: no
+    
+   - name: Print message
+     debug: msg="Hello to {{name}}, from Ansible!!"
