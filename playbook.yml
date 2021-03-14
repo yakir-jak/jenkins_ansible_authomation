@@ -1,6 +1,7 @@
 ---
 - hosts: test-it
-  
+  vars:
+    - name: "Yakir"
 
   tasks:
   - name: Update the repository cache and update package "curl" to latest version
