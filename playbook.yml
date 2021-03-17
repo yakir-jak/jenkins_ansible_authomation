@@ -11,4 +11,4 @@
       update_cache: no
     
   - name: Print message
-    debug: msg="Hello to {{domain.var}}, from Ansible!!"
+    debug: msg="Hello to {{name}}, from Ansible!!"
